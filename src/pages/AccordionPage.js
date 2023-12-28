@@ -1,25 +1,28 @@
 import Accordion from '../components/Accordion';
 
 function AccordionPage() {
-    const items = [
-        {
-            id: "llgslflg",
-            label: 'What is React?',
-            content: 'React is a front end javascript framework',
-        },
-        {
-            id: "hhgfdhflg",
-            label: 'Why use React?',
-            content: 'React is a favorite JS library among engineers',
-        },
-        {
-            id: "llgdfsfsg",
-            label: 'How do you use React?',
-            content: 'You use React by creating components',
-        },
-    ]
-    
-    return <Accordion items={items}/>;
- 
+  const items = [
+    {
+      id: 'l2kj5',
+      label: 'Can I use React on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+    {
+      id: 'lk2j35lkj',
+      label: 'Can I use Javascript on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+    {
+      id: 'l1kj2i0g',
+      label: 'Can I use CSS on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+  ];
+
+  return <Accordion items={items} />;
 }
+
 export default AccordionPage;
